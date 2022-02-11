@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="AdventuresCRUD_Lundeen.Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<style>
+    html {
+        background-color: gray;
+    }
+    TextBox {
+        background-color: lightgray;
+    }
+    button {
+        background-color: lightgray;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+    .active {
+        background-color: #04AA6D;
+    }
+        
+    body
+    {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14pt;
+    }
+    table
+    {
+        border: 1px solid #ccc;
+        width: 460px;
+        margin-bottom: -1px;
+    }
+    table th
+    {
+        background-color: darkslategray;
+        color: lightgray;
+        font-weight: bold;
+    }
+    table th, table td
+    {
+        padding: 5px;
+        border-color: black;
+    }
+    th 
+    {
+        border-color: gray;
+    }
+    .Button a
+    {
+        color:black;
+    }
+</style>
+<body>
+    <form id="form1" runat="server">
+<ul>
+  <li><a href="Products.aspx">Products</a></li>
+  <li><a href="Customers.aspx">Customers</a></li>
+  <li><a href="CreateCustomer.aspx">NewCustomer</a></li>
+</ul>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
+
