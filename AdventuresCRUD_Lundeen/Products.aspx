@@ -46,9 +46,6 @@
                         <td>
                             <asp:Label ID="lblWeight" runat="server" Text='<%# Eval("Weight") %>' />
                         </td>
-                        <td>
-
-                        </td>
                     </tr>
         </ItemTemplate>
 

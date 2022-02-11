@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <asp:Table ID="Table1" runat="server">
+        
+    <asp:Table ID="Table1" runat="server">
         <asp:TableRow runat="server">
             <asp:TableCell runat="server">Title</asp:TableCell>
             <asp:TableCell ID="TitleIn" runat="server" ><asp:TextBox ID="txtbxTitle" runat="server"></asp:TextBox></asp:TableCell>

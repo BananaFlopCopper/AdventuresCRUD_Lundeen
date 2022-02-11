@@ -69,11 +69,34 @@
     }
     th 
     {
+        border: solid 2px lightgray;
         border-color: gray;
+    }
+    .Button
+    {
+        margin: 0px;
+        padding: 2px;
+        border-spacing: 0px;
     }
     .Button a
     {
-        color:black;
+      background-color: darkslategrey;
+      border: solid 2px groove gray;
+      color: lightgray;
+      padding: 10px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+
+    }
+
+    .button a:hover {
+      border: 2px solid gray;
+    }
+    input
+    {
+        background-color: lightgray;
     }
 </style>
 <body>
